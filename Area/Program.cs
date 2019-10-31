@@ -2,18 +2,18 @@
 
 namespace Area
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.Write("Enter an radius: ");
-            string input = Console.ReadLine();
-            double radius = double.Parse(input);
+            double pi = Math.PI;
 
-            double area = 3.14 * radius * radius;
+            Console.WriteLine("Enter a radius: ");
+            double r = double.Parse(Console.ReadLine());
+            //var r = Convert.ToInt32(Console.ReadLine());
+            double a = pi * (r * r);
 
-            Console.WriteLine("The area of circle of radius " + radius + " is: " + area);
-
+            Console.WriteLine($"The area of a circle with radius {r} is: {a}");
             Console.ReadLine();
         }
     }

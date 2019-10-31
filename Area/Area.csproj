@@ -1,14 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.0</TargetFramework>
-    <AssemblyName>Area</AssemblyName>
     <OutputType>Exe</OutputType>
-    <PackageId>Area</PackageId>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
-    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
-    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
-    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
 </Project>
